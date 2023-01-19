@@ -1,0 +1,113 @@
+body {
+    background-image: url('https://pixabay.com/get/gaf040442cac657e22c110cbc9c7b34db4cf8a1ff7c9d60f96e87d35f895238ea60f5f614ebb76b6ea58e01d64e61b8489a2492a1edb2223950d774ed7abf731c_1920.jpg');
+    border: 0px;
+    padding: 0px;
+    height: 750px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.left {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    
+    display: inline-block;
+}
+
+.left div{
+    line-height: 30px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(0, 0, 103);
+}
+.left img{
+    position: relative;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 29px auto;
+}
+
+.right {
+    position: absolute;
+    right: 43px;
+    top: 34px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(13, 190, 13);;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(2, 104, 2);
+    background-color: rgb(163, 250, 129);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn:hover{
+    background-color:rgb(87, 243, 26) ;
+}
+.container{
+    position: absolute;
+    left: 30px;
+    display: inline-block;
+    margin-top: 100px; ;
+    border: 2px solid green;
+    border-radius: 15px;
+}
+
+.container div{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.container form{
+    font-size: 25px;
+}
+.container input{
+    height: 40px;
+    width: 700px;
+    display: block;
+    margin: 16px;
+    border: none;
+    border-radius: 7px;
+    padding: 0px 15px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#submit{
+    height: 40px;
+    width: 600px;
+    display: block;
+    margin: 16px auto;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
